@@ -9,26 +9,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <head>
     <base target="rightFrame" href="<%=basePath%>">
     
-    <title>北大青鸟办公自动化管理系统</title>
-	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="expires" content="0">    
-	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	<meta http-equiv="description" content="This is my page">
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    <title>测试github</title>
   </head>
-  <%
-  	String images=request.getContextPath()+"/images";
-  	session.setAttribute("images",images);
-  %>
   <body>
-  	<jsp:include page="/jsp/common/indexTop.jsp"></jsp:include>
-		<div class="main">
-			<div class="global-width">
-				<jsp:include page="/jsp/common/indexSidebar.jsp" />
-				<jsp:include page="/jsp/common/indexRightbar.jsp" />
-			</div>
-		</div>
-	<jsp:include page="/jsp/common/indexBottom.jsp"></jsp:include>
+ <h1>第一次测试github</h1>
   </body>
 </html>
